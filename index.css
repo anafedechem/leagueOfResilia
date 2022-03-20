@@ -42,7 +42,7 @@ footer{
     font-family: 'PT Mono', monospace;
 }
 
-#how{
+#how {
     background-color: gold;
     color: black;
     border: 2px solid black; 
@@ -92,12 +92,13 @@ footer{
 }
 
 /* Aqui se inicia o CSS específico para as páginas, mas reutilizando o CSS da página "Index" */
-.who{
+.who {
     background-color: black;
     color: gold;
     font-family: 'PT Mono', monospace;
-    margin: 5% 15%;
-    padding: 5%;
+    font-size: small;
+    margin: 3% 15%;
+    padding: 6%;
 }
 
 .redes{
@@ -110,7 +111,7 @@ footer{
     margin: 0% 20%;
 }
 
-#linkedin , #github , #jogar , #inicio {
+#linkedin , #github , #jogar , #inicio{
     display: flex;
     justify-content: center;
     align-items: center;
