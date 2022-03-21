@@ -15,19 +15,18 @@ body{
 }
 
 footer{
-    background-color: gold;
+    background-color: black;
     color: black;
     border: 2px solid black; 
     font-family: 'PT Mono', monospace;
     border-radius: 50px;
-    width: 120px;
+    width: 100%;
     height: 40px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     position: fixed;
     margin-top: 20px;
-    margin-left: 85%;
 }
 
 .heroes{
@@ -75,3 +74,30 @@ option{
     background-color: black;
     color: gold;
 }
+
+.fimdejogo {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#inicio , #playagain {
+    background-color: grey;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'PT Mono', monospace;
+    background-color: gold;
+    color: black;
+    border: 2px solid black; 
+    border-radius: 50px;
+    width: 140px;
+    height: 40px;
+}
+
+#inicio:hover , #playagain:hover {
+    opacity: 0.6;
+    transition: 0.1s;
+}
+

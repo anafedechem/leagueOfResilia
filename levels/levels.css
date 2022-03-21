@@ -1,3 +1,9 @@
+header{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+}
 body{
     background-color: black;
 }
@@ -29,7 +35,7 @@ main{
     font-family: 'PT Mono', monospace;
 }
 
-#avancar , #voltar {
+#avancar , #voltar , #btnGameOver , #btnContinue {
     background-color: gold;
     color: black;
     border: 2px solid black; 
@@ -47,4 +53,42 @@ main{
     justify-content: space-between;
     margin: 0px 200px;
     font-family: 'PT Mono', monospace
+}
+
+.backgroundUm {
+    background-image: url(../img/bg-um.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    width: 100%;
+    border: 2px solid gold;
+    height: 100%;
+}
+
+.bainha{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 90px;
+    background-color: black;
+    height: fit-content;
+}
+
+#next{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gold;
+    width: 100px;
+    height: 40px;
+    border-radius: 200px;
+    margin-left: 85%;
+}
+
+#next:hover{
+    opacity: 0.6;
+    transition: 0.1s;
+}
+
+.hidden{
+    visibility: hidden;
 }
