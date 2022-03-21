@@ -11,7 +11,7 @@
     
     <title>ESCOLHA DE PERSONAGENS</title>
 </head>
-<body>
+<main>
     <header>
         <a href="../index.html"><img src="../img/logo.png" alt="logo do jogo" width="100px" height="50px"></a>
     </header>
@@ -24,49 +24,51 @@
             <li>O segundo herói jogará as fases 4, 5 e 6;</li>
             <li>O terceiro herói jogará as fases 7, 8 e 9.</li>
         </div>
+
+        <div class="heroes">
+            <span id="samira"><img src="../img/samira.png" alt="Samira" width="150px" height="150px">
+            <p>Samira</p>
+            </span>
+
+            <span id="ashe"><img src="../img/ashe.png" alt="Ashe" width="150px" height="150px">
+            <p>Ashe</p>
+            </span>
+
+            <span id="darius"><img src="../img/darius.png" alt="Darius" width="150px" height="150px">
+            <p>Darius</p>
+            </span>     
+    
+        </div>
+
+        <div class="select">
+            <select id="primeiro">
+                <option value="0">Primeiro herói</option>
+                <option value="1">Samira</option>
+                <option value="2">Ashe</option>
+                <option value="3">Darius</option>
+            </select>
+    
+            <select id="segundo">
+                <option value="0">Segundo herói</option>
+                <option value="1">Samira</option>
+                <option value="2">Ashe</option>
+                <option value="3">Darius</option>
+            </select>
+
+            <select id="terceiro">
+                <option value="0">Terceiro herói</option>
+                <option value="1">Samira</option>
+                <option value="2">Ashe</option>
+                <option value="3">Darius</option>
+            </select>
+        </div>
     </main>
 
-    <div class="heroes">
-        <span id="samira"><img src="../img/samira.png" alt="Samira" width="150px" height="150px">
-        <p>Samira</p>
-        </span>
-
-        <span id="ashe"><img src="../img/ashe.png" alt="Ashe" width="150px" height="150px">
-        <p>Ashe</p>
-        </span>
-
-        <span id="darius"><img src="../img/darius.png" alt="Darius" width="150px" height="150px">
-        <p>Darius</p>
-        </span>
-        
+    <footer>
+            <button id="btnAvancar" onclick="avancar()"> AVANÇAR </button>
+    </footer>
     
-    </div>
-
-    <div class="select">
-        <select name="primeiro" id="heroi">
-            <option value="0">Primeiro herói</option>
-            <option value="1">Samira</option>
-            <option value="2">Ashe</option>
-            <option value="3">Darius</option>
-        </select>
-    
-        <select name="segundo" id="heroi">
-            <option value="0">Segundo herói</option>
-            <option value="1">Samira</option>
-            <option value="2">Ashe</option>
-            <option value="3">Darius</option>
-        </select>
-
-        <select name="terceiro" id="heroi">
-            <option value="0">Terceiro herói</option>
-            <option value="1">Samira</option>
-            <option value="2">Ashe</option>
-            <option value="3">Darius</option>
-        </select>
-        </div>
-    
+    <script src="characters.js"></script>
 </body>
-<footer>
-    <a href="../levels/intro.html"> AVANÇAR </a>
-</footer>
+
 </html>
