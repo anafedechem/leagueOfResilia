@@ -1,0 +1,12 @@
+/* Media Querie usado na pagina "comoJogar" e "links" */
+
+@media (max-width: 767px) {
+    .redes {
+        background-color: black;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: auto;
+    }
+}
