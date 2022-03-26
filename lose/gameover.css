@@ -54,6 +54,19 @@ footer{
 
 /* Abaixo se encontra a configuração de media queries para os levels */
 
+
+@media (max-width: 3000px){
+    .fimdejogo {
+        width: auto;
+        height: auto;
+    }
+
+    footer {
+        margin-top: 2%;
+        background-color: transparent;
+    }
+}
+
 @media (max-width: 1000px) {
     header{
         width: 400px;
@@ -75,16 +88,4 @@ footer{
         margin-top: 2%;
 
     } 
-}
-
-@media (max-width: 3000px){
-    .fimdejogo {
-        width: auto;
-        height: auto;
-    }
-
-    footer {
-        margin-top: 2%;
-        background-color: transparent;
-    }
 }
